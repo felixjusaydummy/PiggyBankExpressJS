@@ -1,0 +1,91 @@
+middleware: {
+    "type": "USER_INITIALIZE_ACCOUNT_DETAILS_RESOLVED",
+    "initializeState": false,
+    "page_loading": false,
+    "data": {
+      "email": "john",
+      "password": "john",
+      "name": "San Goku",
+      "inbox": [
+        {
+          "status": "Notification",
+          "date_send": "2012-04-23T00:00:00.000Z",
+          "title": "Sale Alert! - Julie’s Jewels",
+          "message": "John, don’t miss out on this 80% off all regular priced accessories promo. \n\nThe deal ends tonight at 8pm, so come in before someone nabs that bracelet you’ve been eyeing.",
+          "open": false
+        },
+        {
+          "status": "Rewards",
+          "date_send": "2012-05-23T00:00:00.000Z",
+          "title": "Rewards",
+          "message": "You have earned 2 Reward point/s. Your points balance as of today is 2. Visit home site to know the list of items you can redeem",
+          "open": false
+        },
+        {
+          "status": "Notification",
+          "date_send": "2012-06-23T00:00:00.000Z",
+          "title": "Looking for a deal? - Cheeky Prints",
+          "message": "Perfect, get 20% off all printing services, and free shipping on any web order. The sale ends tomorrow at 2pm: bit.ly.get-the-goods",
+          "open": false
+        }
+      ],
+      "status_user": "new",
+      "rewards": 9.87,
+      "account": {
+        "accountNo": "22012345",
+        "bankName": "BPI",
+        "balance": 339800,
+        "accounts": [
+          {
+            "accountNo": "22012345",
+            "bankName": "BPI",
+            "balance": 339800,
+            "main": true
+          },
+          {
+            "accountNo": "22012345",
+            "bankName": "BDO",
+            "balance": 339800,
+            "main": false
+          }
+        ]
+      },
+      "purse": {
+        "pocketAmount": 200,
+        "allocations": [
+          {
+            "id": 1,
+            "description": "Savings",
+            "amount": 100,
+            "active": true
+          },
+          {
+            "id": 2,
+            "description": "Utilities",
+            "amount": 0,
+            "active": false
+          },
+          {
+            "id": 3,
+            "description": "Travel",
+            "amount": 100,
+            "active": true
+          }
+        ]
+      },
+      "vault": {
+        "vaultBalance": 5900,
+        "pocketAmount": 500,
+        "allocations": [
+          {
+            "id": 1,
+            "description": "Savings",
+            "targetAmount": 1000000,
+            "expiration": "2012-04-23T00:00:00.000Z",
+            "requestRelease": false,
+            "amount": 500
+          }
+        ]
+      }
+    }
+  }

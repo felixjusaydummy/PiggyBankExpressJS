@@ -1,0 +1,115 @@
+middleware: {
+    "type": "USER_INITIALIZE_ACCOUNT_DETAILS_RESOLVED",
+    "initializeState": false,
+    "page_loading": false,
+    "data": {
+      "vault": {
+        "allocations": [
+          {
+            "description": "Travel",
+            "releaseRequest": false,
+            "amount": "1000",
+            "expiration": "2021-02-27T06:25:21.000Z",
+            "targetAmount": "100000"
+          }
+        ],
+        "pocketAmount": 1000,
+        "vaultBalance": 4000
+      },
+      "password": "john",
+      "status": "Bronze",
+      "account": {
+        "accountNo": "4567-3456-12",
+        "accounts": [
+          {
+            "balance": 10000,
+            "_comment": "temporaring kabit lang boss, test lang sa desperadong dev",
+            "TransactionHistory": [
+              {
+                "date": "2020-01-16T18:00:00.000Z",
+                "description": "ATM Withdrawal",
+                "amount": 1000,
+                "crdr": "dr"
+              },
+              {
+                "date": "2020-01-17T13:00:00.000Z",
+                "description": "Credit Memo",
+                "amount": 10000,
+                "crdr": "cr"
+              }
+            ],
+            "accountNo": "4567-3456-12",
+            "bankName": "Merchant Bank",
+            "main": true,
+            "type": "deposit"
+          },
+          {
+            "bankName": "Test Bank",
+            "main": false,
+            "type": "credit",
+            "balance": 10000,
+            "accountNo": "123456"
+          }
+        ],
+        "balance": 7000,
+        "bankName": "Merchant Bank",
+        "main": true
+      },
+      "purse": {
+        "allocations": [
+          {
+            "active": true,
+            "amount": 0,
+            "description": "Rent"
+          },
+          {
+            "description": "Utilities",
+            "active": true,
+            "amount": "2000"
+          },
+          {
+            "description": "Health",
+            "active": true,
+            "amount": "1000"
+          }
+        ],
+        "pocketAmount": 3000
+      },
+      "rewards": 1,
+      "inbox": [
+        {
+          "date_send": "2020-01-21T00:00:00.000Z",
+          "message": "You have successfully added a new Wallet Pocket! Congratulations you have earned 1 Thrift Point! Check out the Tips section for more ways to earn Thrift Points.",
+          "title": "Rewards",
+          "open": false,
+          "status": "Rewards"
+        },
+        {
+          "date_send": "2020-01-21T00:00:00.000Z",
+          "message": "You have successfully added a new Wallet Pocket! Congratulations you have earned 1 Thrift Point! Check out the Tips section for more ways to earn Thrift Points.",
+          "title": "Rewards",
+          "open": false,
+          "status": "Rewards"
+        },
+        {
+          "date_send": "2020-01-21T00:00:00.000Z",
+          "message": "You have successfully added a new Wallet Pocket! Congratulations you have earned 1 Thrift Point! Check out the Tips section for more ways to earn Thrift Points.",
+          "title": "Rewards",
+          "open": false,
+          "status": "Rewards"
+        }
+      ],
+      "email": "john",
+      "name": "John Marquez",
+      "tips": [
+        {
+          "category": "Travel",
+          "details": "Hello Traveler! It looks like you want to go to Paris. Due to your Bronze status, you can enjoy comprehensive insurance coverage w/ our special Parisian Tourist Package! This includes: Medical Insurance, Trip Ensurance, Theft Insurance, Schengen Visa Insurance, & more! Plus, you can earn three Thrifty Points by availing this special travel insurance package. Avail now to enjoy a stres-free vacation!"
+        },
+        {
+          "category": "Food",
+          "details": "Hello fellow foodie! We hope you enjoyed your meal at Heat by Shangri-la. For the past month, your food spending has increased by 20% To help reduce your average food spending, you can avail up to 20% discount at all Bistro affiliated restaurants such as Denny's, Fridays, Buffalo Wild Wings, Fish & Co., and many more! Check out the Tips and Recommendations on your dashboard for more ways to manage your finances!"
+        }
+      ]
+    }
+  }
